@@ -2,7 +2,7 @@
 
 def loop_message_five_times(string) 
   5.times {puts string}
-end
+  end
 end
   
 def loop_message_n_times(message, integer)
@@ -15,10 +15,11 @@ end
   
 def output_array(array)
   array.each {|i| print i}
-end
+  end
 end
   
 def return_string_array(array)
   array.collect {|i| i.to_s} 
+end
   array
 end 

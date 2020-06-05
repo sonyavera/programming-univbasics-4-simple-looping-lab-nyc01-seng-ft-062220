@@ -15,7 +15,7 @@ def loop_message_n_times(message, integer)
 end
   
 def output_array(array)
-  loop array.each do
+  array.each {|i| print i}
     print
   end
 end

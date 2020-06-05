@@ -18,6 +18,5 @@ end
   
 def return_string_array(array)
   array.collect {|i| i.to_s} 
-end
   array
 end 

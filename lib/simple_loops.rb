@@ -14,7 +14,7 @@ end
   
 def output_array(array)
   array.each {|i| print i}
-  end
+end
 end
   
 def return_string_array(array)

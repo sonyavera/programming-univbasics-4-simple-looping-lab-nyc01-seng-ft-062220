@@ -16,11 +16,10 @@ end
   
 def output_array(array)
   array.each {|i| print i}
-    print
   end
 end
   
 def return_string_array(array)
-  
+  array.each {|i| i_to.s
   
 end 

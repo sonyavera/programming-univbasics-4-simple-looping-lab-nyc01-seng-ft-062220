@@ -7,7 +7,7 @@ end
 def loop_message_n_times(message, integer)
   times_printed = 0
   while times_printed <= integer do
-    print string
+    print message
     times_printed += 1
   end
 end

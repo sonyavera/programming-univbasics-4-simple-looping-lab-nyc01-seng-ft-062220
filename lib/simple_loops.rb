@@ -14,8 +14,10 @@ def loop_message_n_times(message, integer)
   end
 end
   
-def output_array
-  
+def output_array(array)
+  loop array.each do
+    print
+  end
 end
   
 def return_string_array
